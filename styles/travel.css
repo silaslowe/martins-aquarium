@@ -1,0 +1,30 @@
+.travel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(9, 108, 238);
+  margin: 2em 0 2em 0;
+  width: 95%;
+}
+
+.travel__quotes {
+  margin: 1em 0 1em 0;
+  width: 95%;
+  background-color: rgb(195, 170, 170);
+}
+
+.quotes__title {
+  display: flex;
+  justify-content: center;
+}
+
+.travel__location {
+  width: 95%;
+  margin: 0 0 1em 0;
+  background-color: maroon;
+}
+.location__title {
+  display: flex;
+  justify-content: center;
+}

@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
 @import "./header.css";
-
-/*Typography
---------------------------------------------------------------*/
+@import "./main-container.css";
+@import "./fishes.css";
+@import "./travel.css"; /*Typography-----------------------------------------------------------*/
 body,
 button,
 input,
@@ -24,6 +24,11 @@ h5,
 h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+}
+
+li {
+  list-style-type: none;
+  padding: 0;
 }
 img {
   width: 140px;

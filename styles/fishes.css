@@ -1,0 +1,30 @@
+.fishes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: lightsteelblue;
+  margin-top: 2em;
+  width: 95%;
+}
+
+fishes__title {
+  display: flex;
+  justify-content: center;
+}
+
+.fishes__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fish {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  width: 22%;
+  background-color: mediumspringgreen;
+  padding: 0.5em;
+}

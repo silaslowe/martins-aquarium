@@ -1,0 +1,18 @@
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 3;
+  align-items: center;
+  width: 72%;
+  background-color: lightgreen;
+}
+
+.right-container {
+  flex-basis: 1;
+  width: 22%;
+  background-color: lightpink;
+}
