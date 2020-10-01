@@ -28,3 +28,14 @@
   border-bottom: 3px solid black;
   text-align: center;
 }
+
+.aside-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aside-image {
+  width: 70%;
+  margin: 1em 0 1em 0;
+}
