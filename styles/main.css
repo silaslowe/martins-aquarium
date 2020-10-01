@@ -3,7 +3,10 @@
 @import "./header.css";
 @import "./main-container.css";
 @import "./fishes.css";
-@import "./travel.css"; /*Typography-----------------------------------------------------------*/
+@import "./travel.css";
+@import "./aside.css";
+
+/*Typography-----------------------------------------------------------*/
 body,
 button,
 input,
@@ -27,10 +30,30 @@ h6 {
   letter-spacing: 2px;
 }
 
+h3 {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
 li {
   list-style-type: none;
   padding: 0;
 }
 img {
-  width: 140px;
+  width: 170px;
+}
+a {
+  cofont-size: 2em;
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+footer {
+  font-size: 2em;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
 }

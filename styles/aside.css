@@ -1,0 +1,30 @@
+.careItemList__title {
+  display: flex;
+  justify-content: center;
+}
+
+.careItem {
+  margin: 1em;
+}
+
+.careItem__title-pic {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.careItem__topic {
+  font-size: 1.5em;
+}
+
+.decoration-container {
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 2em 0;
+}
+
+.decoration {
+  width: 25%;
+  border-bottom: 3px solid black;
+  text-align: center;
+}

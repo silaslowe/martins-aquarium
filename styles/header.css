@@ -4,7 +4,13 @@ header {
   align-items: center;
   width: 100%;
   padding: 3em 0 3em 0;
-  background-color: aqua;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    126deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(44, 255, 230, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 
 h1 {
