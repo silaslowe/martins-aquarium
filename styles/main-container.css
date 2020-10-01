@@ -1,6 +1,6 @@
 .main-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .left-container {
   display: flex;
@@ -15,4 +15,5 @@
   flex-basis: 1;
   width: 22%;
   background-color: lightpink;
+  margin: 2em 0 2em 0;
 }

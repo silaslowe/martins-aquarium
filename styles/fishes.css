@@ -8,7 +8,7 @@
   width: 95%;
 }
 
-fishes__title {
+.fishes__title {
   display: flex;
   justify-content: center;
 }
@@ -23,8 +23,9 @@ fishes__title {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
+  padding: 2em 0 0 1em;
   margin: 1em;
-  width: 22%;
+  width: 30%;
   background-color: mediumspringgreen;
-  padding: 0.5em;
 }
