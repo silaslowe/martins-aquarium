@@ -1,4 +1,6 @@
-import { fishTest } from "./FishList.js";
+import { FishList } from "./FishList.js"
+import { useFish } from "./FishDataProvider.js";
 
 
-fishTest()
+FishList()
+

@@ -1,16 +1,34 @@
 import { useFish } from "./FishDataProvider.js";
+import { Fish } from "./Fishes.js";
 
-export const fishTest = () => {
-    const allTheFish = useFish()
 
-    for (const fish of allTheFish) {
-        console.log(fish)
+
+
+export const FishList = () => {
+
+
+    const contentElement = document.querySelector(".left-container")
+    const fishes = useFish();
+    console.log(fishes)
+
+    let fishHTMLRepresentations = ''
+
+    for (const fish of fishes) {
+        fishHTMLRepresentations += Fish(fish)
     }
 
+
+    contentElement.innerHTML +=
+        `
+            <articel class="fishList">
+            ${fishHTMLRepresentations}
+            </articel> 
+            `
 }
 
 
 
-{/* <section class="fishes">
-<h3 class="section-title">Fish Friends</h3>
-<div class="fishes__list"> */}
+
+
+
+
