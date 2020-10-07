@@ -91,7 +91,7 @@
                   <img src="martins-pics/dirty.jpg" alt="dirty fishtank" />
                 </div>
                 <p class="careItem__text">
-                  Make sure you keep th ebowl clean. Fish don;t have hands and thy don't make
+                  Make sure you keep the bowl clean. Fish don;t have hands and thy don't make
                   sponges small enough for them anyways. I've tried cutting up a regular sponge into
                   smaller pieces but I think fish may kind of entitled and not enthusiastic about
                   work.
