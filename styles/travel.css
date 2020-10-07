@@ -6,6 +6,7 @@
   background-color: rgb(9, 108, 238);
   margin: 2em 0 2em 0;
   width: 95%;
+  border-radius: 20px;
 }
 
 /* Quotes */
@@ -14,15 +15,20 @@
   margin: 2em 0 2em 0;
   width: 95%;
   background-color: rgb(195, 170, 170);
+  border-radius: 20px;
 }
 
-.quotes__title {
-  display: flex;
-  justify-content: center;
+.travel__quotes__title {
+  text-align: center;
 }
 
 .quoteItem {
   padding: 1em;
+  font-size: 1.25em;
+}
+
+.quoteItem__text {
+  font-weight: bold;
 }
 
 .decoration-container {
@@ -43,10 +49,10 @@
   width: 95%;
   margin: 0 0 2em 0;
   background-color: rgb(195, 170, 170);
+  border-radius: 20px;
 }
-.location__title {
-  display: flex;
-  justify-content: center;
+.travel__location__title {
+  text-align: center;
 }
 
 .locationItem-container {
@@ -63,4 +69,5 @@
   background-color: mediumspringgreen;
   padding: 0.5em;
   border: 3px solid black;
+  border-radius: 20px;
 }

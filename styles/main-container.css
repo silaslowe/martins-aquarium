@@ -9,6 +9,8 @@
   align-items: center;
   width: 72%;
   background-color: lightgreen;
+  border-radius: 20px;
+  margin: 2em 0 2em 0;
 }
 
 .right-container {
@@ -16,4 +18,5 @@
   width: 22%;
   background-color: lightpink;
   margin: 2em 0 2em 0;
+  border-radius: 20px;
 }

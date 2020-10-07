@@ -6,6 +6,7 @@
   background-color: lightsteelblue;
   margin-top: 2em;
   width: 95%;
+  border-radius: 20px;
 }
 
 .fishes__title {
@@ -25,11 +26,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding: 2em 0 0 1em;
+  justify-content: center;
+  padding: 0.5em 0 0 0.5em;
   margin: 1em;
   width: 30%;
   background-color: mediumspringgreen;
   border: 3px solid black;
   font-size: 1em;
+  border-radius: 20px;
+  font-size: 1.2em;
 }
