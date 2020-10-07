@@ -1,1 +1,3 @@
-console.log("Yo guy!");
+import { useFish } from "./FishDataProvider.js";
+
+console.log(useFish())
