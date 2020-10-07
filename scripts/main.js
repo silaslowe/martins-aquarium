@@ -1,3 +1,4 @@
-import { useFish } from "./FishDataProvider.js";
+import { fishTest } from "./FishList.js";
 
-console.log(useFish())
+
+fishTest()
