@@ -9,7 +9,6 @@ export const FishList = () => {
 
     const contentElement = document.querySelector(".left-container")
     const fishes = useFish();
-    console.log(fishes)
 
     let fishHTMLRepresentations = ''
 
