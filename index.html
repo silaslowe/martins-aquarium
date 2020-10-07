@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Martin's Aquarium</title>
+    <title>Martin's Really Great Aquarium</title>
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
 
@@ -12,7 +12,7 @@
 
       <header>
         <img class="logo" src="martins-pics/logo.jpg" alt="fish logo" />
-        <h1>Martin's Aquarium</h1>
+        <h1>Martin's Great Aquarium</h1>
       </header>
 
       <!-- Main Container -->
@@ -22,12 +22,12 @@
           <!-- Fishes Container -->
 
           <section class="fishes">
-            <div class="fishes__title">
-              <h3 class="section-title">Fish Friends</h3>
-            </div>
+            <h3 class="section-title">Fish Friends</h3>
             <div class="fishes__list">
               <div class="fish">
-                <img src="martins-pics/dragonfish.jpg" alt="dragon fish named smiles" />
+                <div class="fish__image">
+                  <img src="martins-pics/dragonfish.jpg" alt="dragon fish named smiles" />
+                </div>
                 <ul>
                   <li class="fish__name">Name: Smily</li>
                   <li class="fish__species">Species: Deep-Sea Dragonfish</li>
@@ -44,29 +44,7 @@
                   <li class="fish__species">Species: European Eal</li>
                   <li class="fish__length">Length: 50 inches</li>
                   <li class="fish__location">Location: Rabat, Morocco</li>
-                  <li class="fish__dies">Diet: fish, mollusks, worms, and he loves carrion</li>
-                </ul>
-              </div>
-
-              <div class="fish">
-                <img src="martins-pics/dragonfish.jpg" alt="dragon fish named smiles" />
-                <ul>
-                  <li class="fish__name">Name: Smily</li>
-                  <li class="fish__species">Species: Deep-Sea Dragonfish</li>
-                  <li class="fish__length">Length: 5 inches</li>
-                  <li class="fish__location">Location: Gulf of Mexico</li>
-                  <li class="fish__dies">Diet: Small fish and crustaceans</li>
-                </ul>
-              </div>
-
-              <div class="fish">
-                <img src="martins-pics/eel.jpg" alt="dragon fish named smiles" />
-                <ul>
-                  <li class="fish__name">Name: Jeff</li>
-                  <li class="fish__species">Species: European Eal</li>
-                  <li class="fish__length">Length: 50 inches</li>
-                  <li class="fish__location">Location: Rabat, Morocco</li>
-                  <li class="fish__dies">Diet: fish, mollusks, worms, and he loves carrion</li>
+                  <li class="fish__dies">Diet: fish, mollusks, worms, and carrion</li>
                 </ul>
               </div>
 
@@ -88,7 +66,29 @@
                   <li class="fish__species">Species: European Eal</li>
                   <li class="fish__length">Length: 50 inches</li>
                   <li class="fish__location">Location: Rabat, Morocco</li>
-                  <li class="fish__dies">Diet: fish, mollusks, worms, and he loves carrion</li>
+                  <li class="fish__dies">Diet: fish, mollusks, worms, and carrion</li>
+                </ul>
+              </div>
+
+              <div class="fish">
+                <img src="martins-pics/dragonfish.jpg" alt="dragon fish named smiles" />
+                <ul>
+                  <li class="fish__name">Name: Smily</li>
+                  <li class="fish__species">Species: Deep-Sea Dragonfish</li>
+                  <li class="fish__length">Length: 5 inches</li>
+                  <li class="fish__location">Location: Gulf of Mexico</li>
+                  <li class="fish__dies">Diet: Small fish and crustaceans</li>
+                </ul>
+              </div>
+
+              <div class="fish">
+                <img src="martins-pics/eel.jpg" alt="dragon fish named smiles" />
+                <ul>
+                  <li class="fish__name">Name: Jeff</li>
+                  <li class="fish__species">Species: European Eal</li>
+                  <li class="fish__length">Length: 50 inches</li>
+                  <li class="fish__location">Location: Rabat, Morocco</li>
+                  <li class="fish__dies">Diet: fish, mollusks, worms, and carrion</li>
                 </ul>
               </div>
             </div>
@@ -99,16 +99,14 @@
           <section class="travel">
             <!-- Quotes -->
             <article class="travel__quotes">
-              <div class="quotes__title">
-                <h3>Fish Dish</h3>
-              </div>
+              <h3 class="travel__quotes__title">Fish Dish</h3>
               <div class="quoteItem-container">
                 <div class="quoteItem">
                   <p class="quoteItem__text">
                     "When lookin for Tropical fish in Des Moines, the best place to look is a fish
                     store. They gott'em and you can gett'em"
                   </p>
-                  <p class="quoteItem__location">Des Moines</p>
+                  <p class="quoteItem__location">Des Moines, Iowa</p>
                   <p class="quoteItem__author">-Martin(of Martin's Aquarium)</p>
                 </div>
 
@@ -135,7 +133,7 @@
                     "When lookin for Tropical fish in Des Moines, the best place to look is a fish
                     store. They gott'em and you can gett'em"
                   </p>
-                  <p class="quoteItem__location">Des Moines</p>
+                  <p class="quoteItem__location">Des Moines, Iowa</p>
                   <p class="quoteItem__author">-Martin(of Martin's Aquarium)</p>
                 </div>
               </div>
@@ -144,9 +142,8 @@
             <!-- Travel Locations -->
 
             <article class="travel__location">
-              <div class="location__title">
-                <h3>Fishy Travel</h3>
-              </div>
+              <h3 class="travel__location__title">Fishy Travel</h3>
+
               <div class="locationItem-container">
                 <div class="locationItem">
                   <p class="locationItem__name">"Des Moines"</p>
@@ -173,9 +170,8 @@
         <!-- Right Container -->
         <div class="right-container">
           <aside class="careItemsList">
-            <div class="careItemList__title">
-              <h3>Caring for Fish</h3>
-            </div>
+            <h3 class="careItemList__title">Caring for Fish</h3>
+
             <div class="careItem-container">
               <div class="careItem">
                 <div class="careItem__title-pic">
