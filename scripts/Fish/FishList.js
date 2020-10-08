@@ -20,6 +20,7 @@ export const FishList = () => {
     fishesElement.innerHTML +=
         `
             <articel class="fishList">
+             <h2 class="fishList__title">Fishes<h2>
             ${fishHTMLRepresentations}
             </articel> 
             `
