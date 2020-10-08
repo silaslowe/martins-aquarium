@@ -6,6 +6,8 @@
     background-color: lightsteelblue;
     margin-top: 2em;
     width: 95%;
+    border-radius: 20px;
+
   }
   
   .fishes__title {
@@ -32,4 +34,6 @@
     background-color: mediumspringgreen;
     border: 3px solid black;
     font-size: 1em;
+    border-radius: 20px;
+
   }
