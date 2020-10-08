@@ -18,11 +18,13 @@ export const FishList = () => {
 
 
     fishesElement.innerHTML +=
-        `
-            <articel class="fishList">
-             <h2 class="fishList__title">Fishes<h2>
-            ${fishHTMLRepresentations}
-            </articel> 
+        ` 
+        <div class="fishes__title">
+        <h3 class="section-title">Fish Friends</h3>
+      </div>
+      <div class="fishes__list">
+        ${fishHTMLRepresentations} 
+        </div>   
             `
 }
 
@@ -32,3 +34,18 @@ export const FishList = () => {
 
 
 
+// <section class="fishes">
+//     <div class="fishes__title">
+//         <h3 class="section-title">Fish Friends</h3>
+//     </div>
+//     <div class="fishes__list">
+//         <div class="fish">
+//             <img src="martins-pics/dragonfish.jpg" alt="dragon fish named smiles" />
+//             <ul>
+//                 <li class="fish__name">Name: Smily</li>
+//                 <li class="fish__species">Species: Deep-Sea Dragonfish</li>
+//                 <li class="fish__length">Length: 5 inches</li>
+//                 <li class="fish__location">Location: Gulf of Mexico</li>
+//                 <li class="fish__dies">Diet: Small fish and crustaceans</li>
+//             </ul>
+//         </div>
