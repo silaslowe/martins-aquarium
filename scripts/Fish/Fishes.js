@@ -1,5 +1,5 @@
 export const Fish = (fishObj) => {
-    return `
+  return `
     
     <div class="fish">
         <img src="${fishObj.image}" alt="dragon fish named smiles" />
@@ -11,6 +11,5 @@ export const Fish = (fishObj) => {
             <li class="fish__dies">Diet: ${fishObj.food}</li>
         </ul >
 </div >
-    `
-}
-
+    `;
+};
