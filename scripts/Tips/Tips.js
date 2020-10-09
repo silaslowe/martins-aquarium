@@ -9,5 +9,5 @@ export const Tips = (tipObj) => {
                 ${tipObj.tip}
                 </p>
               </div>
-              `
-}
+              `;
+};
